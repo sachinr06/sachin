@@ -1,0 +1,2 @@
+img~.caption{display:none}
+img:active~.caption{display:block}

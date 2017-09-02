@@ -1,0 +1,166 @@
+header {
+	text-align:center;
+	color:white;
+    font-size: 58px;
+	font-family:'OCR A Extended';
+} 
+.navbar-default {
+
+  background-image: none;
+  background-repeat: no-repeat;
+
+  font-weight: bold;
+  
+}
+
+button {
+  color: #FFF;
+  background-color: #D22F46;
+  font-weight: bold;
+  font-size:22px;
+}
+
+button:hover {background-color: #B1124E}
+
+button:active {
+  background-color: #D528F4;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#cf6_image {
+	float:left;
+  margin:0 auto;
+  width:320px;
+  height:320px;
+  transition: background-image 1s ease-in-out;
+  background-image:url("a.jpg");
+  margin-right:10px;
+  margin-bottom:10px;
+}
+#sticky {
+  /* BASE CODE */
+  position: fixed;
+     margin-top: 50px;    
+  z-index: 10;
+  width: 960px;
+  height: 10px
+}
+
+
+#table1{
+	color:white;
+}
+#cf6_image:hover {
+	float:left;
+  background-image:url("b.jpg");
+  margin-right:10px;
+  margin-bottom:10px;
+}
+
+#gh { color:white}
+#gh1{ color:white; text-align:left;}
+#gh2{color:white; text-align:right;}
+#we{
+	margin:5px;
+	text-align:justify;
+
+}
+
+#t2{
+		background-color:black;
+		color:white;
+		height:50px;
+	}
+
+	#t1{
+		background-color:white;
+		color:black;
+		height:50px;
+	}
+	#t1:hover{
+		background-color:black;
+		color:white
+	}
+#horizontal-scroll {
+width: 1250px;
+height: 510px;
+background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/130527/bg-repeat.png);
+-webkit-animation: backgroundScroll 20s linear infinite;
+animation: backgroundScroll 20s linear infinite;
+}
+
+@-webkit-keyframes backgroundScroll {
+from {background-position: 0 0;}
+to {background-position: -400px 0;}
+}
+        
+@keyframes backgroundScroll {
+from {background-position: 0 0;}
+to {background-position: -400px 0;}
+}
+
+body {
+  font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+  margin: 12px 0;
+}
+.card-container {
+  cursor: pointer;
+  height: 488px;
+  perspective: 600;
+  position: relative;
+  width: 330px;
+}
+.card {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%;
+}
+#myCarousel{
+  width:840px;
+  height:360px;
+  
+}
+
+.card:hover {
+  transform: rotateY(180deg);
+}
+.card .side {
+  backface-visibility: hidden;
+  border-radius: 6px;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+}
+.card .back {
+  background: #eaeaed;
+  color: black;
+  line-height: 25px;
+  text-align: Justify;
+  transform: rotateY(180deg);
+  border:5px solid brown;
+}
+
+
+
+
+
+#imgex{
+     
+	width:480px;
+	width:240px;
+   
+}
+ 
+ #imgex:hover{
+     
+	width:960px;
+	width:480px;
+    animation: 2s;
+}
+
+ .caption{
+	 color:white;
+ }
